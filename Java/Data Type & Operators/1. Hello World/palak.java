@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class palak
+public class Palak
 {
     public static void main(String[] args)
     {
