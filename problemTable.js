@@ -13,9 +13,7 @@ function printHTMLTable(problemList) {
   problemList.forEach((problem) => {
     const githubLink = getGithubLink(problem.name);
     htmlTable += `<tr><td><a href="${githubLink}">${problem.name}</a></td>`;
-    htmlTable += `<td><input type="checkbox" ${
-      problem.solved ? "checked" : ""
-    }></td></tr>`;
+    htmlTable += `<td> ${problem.solved ? "[x]" : "[ ]"}</td></tr>`;
   });
   htmlTable += "</table>";
   return htmlTable;
@@ -99,7 +97,7 @@ function generateREADME(folderPath) {
   }
   const finalReadmeContent = `${readmeContent}${htmlTable}`;
   fs.writeFileSync("README.md", finalReadmeContent);
-};
+}
 
 // Main function to run the program
 function main() {
