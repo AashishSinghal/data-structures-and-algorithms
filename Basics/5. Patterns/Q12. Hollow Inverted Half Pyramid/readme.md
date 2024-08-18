@@ -1,20 +1,20 @@
 ### Problem Description
-Take an integer N as input, print the corresponding pattern for N.
 
-For example if N = 5 then pattern will be like:
-```
-*****
-*   *
-*   *
-*   *
-*****
-```
+Given an integer N as input, print the corresponding Hollow Inverted Half Pyramid pattern for N.
 
->Note : Except for the first line and the last line, every line will have N-2 spaces between the two stars.
+For example if N = 6 then pattern will be like:
+```
+******
+*   *
+*  *
+* *
+**
+*
+```
 
 Problem Constraints
 ```
-3 <= N <= 100
+1 <= N <= 100
 ```
 
 Input Format
@@ -24,17 +24,22 @@ First and only line of input contains a single integer N.
 
 Output Format
 ```
-Output the pattern corresponding to the given N.
+Output the Hollow Inverted Half Pyramid pattern corresponding to the given N.
 ```
 
 Example Input
 
 >Input 1:
 ```
- 3
+ 2
 ```
 
 >Input 2:
+```
+ 3
+```
+
+>Input 3:
 ```
  4
 ```
@@ -43,17 +48,23 @@ Example Output
 
 >Output 1:
 ```
-***
-* *
-***
+ **
+ *
 ```
 
 >Output 2:
 ```
-****
-*  *
-*  *
-****
+ ***
+ **
+ *
+```
+
+>Output 3:
+```
+ ****
+ * *
+ **
+ *
 ```
 
 Example Explanation
@@ -63,4 +74,4 @@ Example Explanation
 
 <details>
   <summary>Solution</summary>
-    Solution is not yet added!
+    Solution is not yet added! 

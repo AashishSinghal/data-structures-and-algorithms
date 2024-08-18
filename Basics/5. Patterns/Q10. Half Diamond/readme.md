@@ -1,20 +1,25 @@
 ### Problem Description
-Take an integer N as input, print the corresponding pattern for N.
+
+Take an integer N as input, print the corresponding Half Diamond pattern with 2*N - 1 rows.
 
 For example if N = 5 then pattern will be like:
 ```
+* 
+**
+***
+****
 *****
-*   *
-*   *
-*   *
-*****
+****
+***
+**
+*
 ```
 
->Note : Except for the first line and the last line, every line will have N-2 spaces between the two stars.
+>NOTE: There should be no spaces after any * .
 
 Problem Constraints
 ```
-3 <= N <= 100
+2 <= N <= 100
 ```
 
 Input Format
@@ -24,36 +29,37 @@ First and only line of input contains a single integer N.
 
 Output Format
 ```
-Output the pattern corresponding to the given N.
+Output the Half Diamond pattern corresponding to the given N.
 ```
 
 Example Input
 
 >Input 1:
 ```
- 3
+ 2
 ```
 
 >Input 2:
 ```
- 4
+ 3
 ```
 
 Example Output
 
 >Output 1:
 ```
-***
-* *
-***
+ * 
+ **
+ *
 ```
 
 >Output 2:
 ```
-****
-*  *
-*  *
-****
+ *
+ **
+ ***
+ **
+ *
 ```
 
 Example Explanation
