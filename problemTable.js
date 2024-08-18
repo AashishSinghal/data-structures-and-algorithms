@@ -13,7 +13,7 @@ function printHTMLTable(problemList) {
   problemList.forEach((problem) => {
     const githubLink = getGithubLink(problem.name);
     htmlTable += `<tr><td><a href="${githubLink}">${problem.name}</a></td>`;
-    htmlTable += `<td> ${problem.solved ? "[x]" : "[ ]"}</td></tr>`;
+    htmlTable += `<td> ${problem.solved ? "- [x]" : "- [ ]"}</td></tr>`;
   });
   htmlTable += "</table>";
   return htmlTable;
