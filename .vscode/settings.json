@@ -6,7 +6,8 @@
         "markdown",
         "latex",
         "plaintext",
-        "Log"
+        "Log",
+        "javascript"
     ],
     "spellright.parserByClass": {
         "Log": {
