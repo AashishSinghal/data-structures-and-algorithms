@@ -2,6 +2,12 @@
 
 Welcome to my data structures and algorithms repository! This repository contains solutions to various problems on different platforms (e.g., LeetCode, HackerRank, etc.).
 
+## Java Cheatsheet
+
+This section contains a comprehensive cheatsheet for Java programming. It covers essential concepts, syntax, and examples to help you quickly reference and learn Java.
+
+[Java Cheatsheet](./java-cheatsheet.md)
+
 ## Folder Structure
 
 The repository is organized as follows:
