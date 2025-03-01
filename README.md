@@ -6,7 +6,7 @@ Welcome to my data structures and algorithms repository! This repository contain
 
 This section contains a comprehensive cheatsheet for Java programming. It covers essential concepts, syntax, and examples to help you quickly reference and learn Java.
 
-[Java Cheatsheet](./java-cheatsheet.md)
+[Java Cheatsheet](https://github.com/AashishSinghal/data-structures-and-algorithms/blob/master/java_cheatsheet.md)
 
 ## Folder Structure
 
